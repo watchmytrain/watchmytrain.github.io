@@ -1,0 +1,49 @@
+@mixin feature-grid-icons {
+    background-image: url('../media/section_feature_icons.svg');
+    background-size: 500% 500%;
+    background-repeat: no-repeat;
+}
+
+.train_feature_item {
+    
+    &:after {
+        @include feature-grid-icons;
+    }
+    
+    
+    &.wifi:after {
+        background-position: 75% 0%;
+    }
+    &.power:after {
+        background-position: 50% 0%;
+    }
+    &.restaurant:after {
+        background-position: 0% 25%;
+    }
+    &.first:after {
+        background-position: 50% 25%;
+    }
+    &.divide:after {
+        background-position: 0% 0%;
+    }
+    &.bike:after {
+        background-position: 100% 0%;
+    }
+    &.buffet:after {
+        background-position: 100% 25%;
+    }
+    &.airport:after {
+        background-position: 75% 25%;
+    }
+    &.sleeper:after {
+        background-position: 25% 25%;
+    }
+    &.carriages:after {
+        background-position: 25% 0%;
+    }
+    &.warning:after {
+        background-position: 0% 50%;
+    }
+}
+
+

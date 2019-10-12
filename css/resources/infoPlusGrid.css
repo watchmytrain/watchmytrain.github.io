@@ -1,0 +1,39 @@
+.train_feature_item:after {
+  background-image: url("../media/section_feature_icons.svg");
+  background-size: 500% 500%;
+  background-repeat: no-repeat; }
+
+.train_feature_item.wifi:after {
+  background-position: 75% 0%; }
+
+.train_feature_item.power:after {
+  background-position: 50% 0%; }
+
+.train_feature_item.restaurant:after {
+  background-position: 0% 25%; }
+
+.train_feature_item.first:after {
+  background-position: 50% 25%; }
+
+.train_feature_item.divide:after {
+  background-position: 0% 0%; }
+
+.train_feature_item.bike:after {
+  background-position: 100% 0%; }
+
+.train_feature_item.buffet:after {
+  background-position: 100% 25%; }
+
+.train_feature_item.airport:after {
+  background-position: 75% 25%; }
+
+.train_feature_item.sleeper:after {
+  background-position: 25% 25%; }
+
+.train_feature_item.carriages:after {
+  background-position: 25% 0%; }
+
+.train_feature_item.warning:after {
+  background-position: 0% 50%; }
+
+/*# sourceMappingURL=infoPlusGrid.css.map */

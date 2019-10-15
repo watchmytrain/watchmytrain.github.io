@@ -654,4 +654,10 @@ footer {
     footer ul.toc-copyright li {
       display: inline; }
 
+section.corporate {
+  background-color: #f8f8f8;
+  color: #3a3a3a; }
+  section.corporate p {
+    color: #707070; }
+
 /*# sourceMappingURL=watchmytrain.css.map */

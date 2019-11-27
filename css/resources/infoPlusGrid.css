@@ -36,4 +36,26 @@
 .train_feature_item.warning:after {
   background-position: 0% 50%; }
 
+.header-grid-item {
+  background-size: auto 100%;
+  background-position: center center; }
+  .header-grid-item.item-access {
+    background-color: #00CCFF;
+    background-image: url("../media/headerSections/highlight_access.png"); }
+  .header-grid-item.item-complications {
+    background-color: #101010;
+    background-image: url("../media/headerSections/highlight_complications.png"); }
+  .header-grid-item.item-nearest {
+    background-color: #FF505C;
+    background-image: url("../media/headerSections/highlight_nearest.png"); }
+  .header-grid-item.item-refresh {
+    background-color: #1CCF99;
+    background-image: url("../media/headerSections/highlight_refresh.png"); }
+  .header-grid-item.item-trains {
+    background-color: #EA1387;
+    background-image: url("../media/headerSections/highlight_trains.png"); }
+  .header-grid-item.item-whitelabel {
+    background-color: #fff;
+    background-image: url("../media/headerSections/highlight_whiteLabel.png"); }
+
 /*# sourceMappingURL=infoPlusGrid.css.map */

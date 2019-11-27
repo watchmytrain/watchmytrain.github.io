@@ -38,8 +38,36 @@
 .train_feature_item.warning:after {
   background-position: 0% 50%; }
 
+.header-grid-item {
+  background-size: auto 100%;
+  background-position: center center; }
+  .header-grid-item.item-access {
+    background-color: #00CCFF;
+    background-image: url("../media/headerSections/highlight_access.png"); }
+  .header-grid-item.item-complications {
+    background-color: #101010;
+    background-image: url("../media/headerSections/highlight_complications.png"); }
+  .header-grid-item.item-nearest {
+    background-color: #FF505C;
+    background-image: url("../media/headerSections/highlight_nearest.png"); }
+  .header-grid-item.item-refresh {
+    background-color: #1CCF99;
+    background-image: url("../media/headerSections/highlight_refresh.png"); }
+  .header-grid-item.item-trains {
+    background-color: #EA1387;
+    background-image: url("../media/headerSections/highlight_trains.png"); }
+  .header-grid-item.item-whitelabel {
+    background-color: #fff;
+    background-image: url("../media/headerSections/highlight_whiteLabel.png"); }
+
 a, a:active, a:visited {
   color: inherit; }
+
+.no-wrap {
+  white-space: nowrap; }
+
+html {
+  scroll-behavior: smooth; }
 
 * {
   box-sizing: border-box;
@@ -657,7 +685,61 @@ footer {
 section.corporate {
   background-color: #f8f8f8;
   color: #3a3a3a; }
+  section.corporate .section-content {
+    max-width: 720px;
+    text-align: center; }
+  section.corporate h2 {
+    margin-top: 16px; }
+  section.corporate h3 {
+    font-family: "Dosis", sans-serif; }
   section.corporate p {
     color: #707070; }
+  section.corporate img.wl-label {
+    display: inline;
+    width: 90px;
+    height: 90px; }
+
+section.header-grid {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px; }
+  section.header-grid ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+    section.header-grid ul li {
+      float: left;
+      width: 50%;
+      height: 300px;
+      position: relative; }
+      @media screen and (max-width: 640px) {
+        section.header-grid ul li {
+          width: 100%; } }
+      section.header-grid ul li .link-item {
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        font-size: 12pt;
+        color: transparent;
+        text-indent: -9999px; }
+  @supports (display: grid) {
+    section.header-grid ul {
+      display: grid;
+      width: 100%;
+      grid-template-columns: 1fr 1fr;
+      grid-auto-rows: auto;
+      grid-row-gap: 10px;
+      grid-column-gap: 10px; }
+      @media screen and (max-width: 640px) {
+        section.header-grid ul {
+          grid-template-columns: 1fr; } }
+      section.header-grid ul li {
+        float: none;
+        width: 100%; } }
 
 /*# sourceMappingURL=watchmytrain.css.map */

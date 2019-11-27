@@ -47,3 +47,33 @@
 }
 
 
+
+.header-grid-item {
+    background-size: auto 100%;
+    background-position:  center center;
+    
+    &.item-access {
+        background-color: #00CCFF;
+        background-image: url('../media/headerSections/highlight_access.png');
+    }
+    &.item-complications {
+        background-color: #101010;
+        background-image: url('../media/headerSections/highlight_complications.png');
+    }
+    &.item-nearest {
+        background-color: #FF505C;
+        background-image: url('../media/headerSections/highlight_nearest.png');
+    }
+    &.item-refresh {
+        background-color: #1CCF99;
+        background-image: url('../media/headerSections/highlight_refresh.png');
+    }
+    &.item-trains {
+        background-color: #EA1387;
+        background-image: url('../media/headerSections/highlight_trains.png');
+    }
+    &.item-whitelabel {
+        background-color: #fff;
+        background-image: url('../media/headerSections/highlight_whiteLabel.png');
+    }
+}

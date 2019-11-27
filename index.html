@@ -43,8 +43,43 @@
                 <a href="https://apps.apple.com/gb/app/watchmytrain/id1483030307" class="download">Download on the App Store</a>
             </div>
         </section>
+        
+        <section class="header-grid">
+            <ul class="content">
+                <li class="header-grid-item item-trains">
+                    <a href="#infoplus" class="link-item">
+                        Info Plus - Know before you go.
+                    </a>
+                </li>
+                <li class="header-grid-item item-access">
+                    <a href="#access" class="link-item">
+                        Accessibility - Dynamic Type and Voiceover.
+                    </a>
+                </li>
+                <li class="header-grid-item item-nearest">
+                    <div class="link-item">
+                        Nearest Station - Coming Soon.
+                    </div>
+                </li>
+                <li class="header-grid-item item-refresh">
+                    <div class="link-item">
+                        Auto Refresh - Always Up To Date.
+                    </div>
+                </li>
+                <li class="header-grid-item item-complications">
+                    <a href="#complications" class="link-item">
+                        Complications - Fully Supported.
+                    </a>
+                </li>
+                <li class="header-grid-item item-whitelabel">
+                    <a href="#whitelabel" class="link-item">
+                        White Label WatchMyTrain
+                    </a>
+                </li>
+            </ul>
+        </section>
 
-        <section class="feature-grid">
+        <section class="feature-grid" id="infoplus">
 
             <div class="train_feature_pictures">
                 <div class="image flipped">
@@ -102,10 +137,16 @@
                     <p>Warning you of problems with a service.</p>
                 </div>
             </div>
-            <div class="train_feature_item bike coming_soon">
+            <div class="train_feature_item bike">
                 <div class="content">
                     <h3>Bike Reservations</h3>
                     <p>You must reserve a space to take a bike onboard.</p>
+                </div>
+            </div>
+            <div class="train_feature_item power">
+                <div class="content">
+                    <h3>At Seat Power</h3>
+                    <p>Power sockets are available at your seat.</p>
                 </div>
             </div>
             <div class="train_feature_item buffet coming_soon">
@@ -120,12 +161,6 @@
                     <p>This train serves an international airport on it's journey.</p>
                 </div>
             </div>
-            <div class="train_feature_item power coming_soon">
-                <div class="content">
-                    <h3>At Seat Power</h3>
-                    <p>Power sockets are available at your seat.</p>
-                </div>
-            </div>
             <div class="train_feature_item restaurant coming_soon">
                 <div class="content">
                     <h3>Restaurant</h3>
@@ -137,7 +172,7 @@
 
         </section>
 
-        <section class="accessibility">
+        <section class="accessibility" id="access">
             <div class="content">
 
                 <h1>Accessibility</h1>
@@ -169,7 +204,7 @@
             </div>
         </section>
 
-        <section class="complications">
+        <section class="complications" id="complications">
 
             <div class="content">
                 <h2>Complications</h2>
@@ -255,30 +290,48 @@
                         <p>We have limited updating the app to every 60 seconds, so that there is actually some new information when you refresh it!</p>
                     </li>
                     <li>
+                        <h3>How can I give feedback?</h3>
+                        <p>We would love to hear any thoughts you have about WatchMyTrain. You can leave us reviews on the App Store, or just <a href="https://www.twitter.com/watchmytrain" target="_blank">Tweet us</a>!</p>
+                    </li>
+                    <li>
                         <h3>Who owns WatchMyTrain?</h3>
                         <p>WatchMyTrain has been developed by Rail Times App Limited. A Limited company based in England and Wales.</p>
                     </li>
                     <li>
-                        <h3>How can I give feedback?</h3>
-                        <p>We would love to hear any thoughts you have about WatchMyTrain. You can leave us reviews on the App Store, or just <a href="https://www.twitter.com/watchmytrain" target="_blank">Tweet us</a>!</p>
+                        <h3>I work for a Train Operating Company, can we license WatchMyTrain?</h3>
+                        <p>Yes absolutely! Check out our summary below, and if you'd like to get in touch just <a href="https://www.twitter.com/watchmytrain" target="_blank">drop us a tweet</a>.</p>
                     </li>
                 </ul>
             </div>
         </section>
 
-        <section class="double">
+        <section class="corporate" id="whitelabel">
+            <div class="section-content">
+                  <img src="./media/whiteLabel/whiteLabel_label.svg" alt="A white label" class="wl-label">
+                  <h2><span class="no-wrap">Your Train Here</span></h2>
+                
+                <p>A great way to deliver on the expectations of your passengers and demonstrate your commitment to innovation, WatchMyTrain can be white-labled to represent your Train Operating Company.</p>
+                <p>Built on a powerful and extentable framework, WatchMyTrain is designed to work with any kind of rail data. Using open or private API's we can translate your organisations rail data into the same great user experience. Our proprietary Info+ technology can be fully tailored to your specific needs and data sources, delivering your customers the most personal information, right on their wrist.</p>
+                
+                
+            </div>
+        </section>
+
+       <section class="double">
 
             <div class="privacy">
                 <h2>Privacy</h2>
                 <p>WatchMyTrain takes your privacy very seriously, so seriously in fact we don't want to know anything about you. When you search for a station a request is made directly to National Rail Enquiries and the result is sent back to you, we never see the searches you make or the responses.</p>
+                <p>Our upcoming nearest station feature uses your location to detect your nearest station if you give WatchMyTrain permission to do so. Your precise coordinates never leave your Apple Watch and they aren't saved, stored or analysed by us. Your location is compared to a list of stations saved on your Apple Watch, which then shows your nearest station in the app.</p>
             </div>
             <div class="accuracy">
                 <h2>Accuracy</h2>
-                <p>WatchMyTrain sources service information from National Rail Enquiries, we do not manipulate this data in any way and are not responsible for its accuracy. Predictions of train facilities are made based on our proprietary algorithms and will occasionally be inaccurate<sup>2</sup>.</p>
+                <p>WatchMyTrain sources service information from National Rail Enquiries, we do not manipulate this data in any way and are not responsible for its accuracy.</p>
+                <p>Predictions of train facilities are made based on our proprietary algorithms and will occasionally be inaccurate<sup>2</sup>.</p>
             </div>
 
         </section>
-
+       
         <footer>
             <div class="footer-content">
                 <ol class="disclaimers">
@@ -308,7 +361,7 @@
                     <li>All TOC logos are used for the purpose of identifying said operators services and rail operations. Logos remain the copyright of their owners.</li>
                 </ul>
 
-                <p>© 2019 Rail Times App Limited. WatchMyTrain is a trading name of Rail Times App Limited.<br>Some features not available in all areas. Website v1.1.03</p>
+                <p>© 2019 Rail Times App Limited. WatchMyTrain is a trading name of Rail Times App Limited.<br>Some features not available in all areas. Website v1.1.04</p>
                 <p>Apple, the Apple logo, iPhone and Apple Watch are trademarks of Apple Inc, registered in the U.S. and other countries.<br>App Store is a service mark of Apple Inc.</p>
             </div>
         </footer>
